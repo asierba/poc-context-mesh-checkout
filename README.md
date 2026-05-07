@@ -46,10 +46,3 @@ pnpm test:e2e        # Playwright, requires docker compose stack
 ## Owned by
 
 Checkout team. On-call rota in PagerDuty under `checkout-prod`.
-
-## Related services
-
-- **Payments** — Team A. Charge / refund.
-- **Inventory** — Team B. Read-only stock checks.
-- **Subscriptions** — Team C. Not used by checkout.
-- **Payouts** — Team D. Not used by checkout.
